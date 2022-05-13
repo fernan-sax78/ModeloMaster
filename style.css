@@ -5,6 +5,8 @@
     font-family: sans-serif;
 }
 
-h1{
+.title{
     font-weight: normal;
+    width: 200px;
+    height: 200px;
 }

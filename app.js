@@ -1,5 +1,18 @@
 (function(){
     $(document).ready(function(){
-        $('[data-bs-toggle="popover"]').popover();  
+
+        $('.btn').popover({
+            title:"HELLO",
+            content : "We are trying",
+            placement : "bottom"
+        }); 
+        
+        $('.title').tooltip({
+            title:"Over the Text",
+            content : "Hello World",
+            placement : "right",
+            trigger : "hover"
+        }); 
+        
     });
 }());
