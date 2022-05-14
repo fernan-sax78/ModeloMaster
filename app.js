@@ -1,4 +1,6 @@
 (function(){
+
+    // PopOver & ToolTip
     $(document).ready(function(){
 
         $('.btn').popover({
@@ -15,4 +17,10 @@
         }); 
         
     });
+
+document.querySelector('.btn').addEventListener('click', ()=>{
+    document.getElementById('texto').innerHTML = "This is a text after click...."
+})
+
+
 }());
