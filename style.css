@@ -4,9 +4,13 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+.cont{
+    width: 800px;
+    height: 400px;
+    margin: 20px;
+}
 .title{
     font-weight: normal;
-    width: 200px;
-    height: 200px;
+    margin: 0;
+    
 }

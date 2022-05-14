@@ -4,10 +4,10 @@
         $('.btn').popover({
             title:"HELLO",
             content : "We are trying",
-            placement : "bottom"
+            placement : "right"
         }); 
         
-        $('.title').tooltip({
+        $('p').tooltip({
             title:"Over the Text",
             content : "Hello World",
             placement : "right",
