@@ -6,11 +6,58 @@
 }
 .cont{
     width: 800px;
-    height: 400px;
-    margin: 20px;
+    height: 250px;
+    padding: 20px;
 }
 .title{
     font-weight: normal;
     margin: 0;
     
+}
+.close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }     
+
+
+.modalito{
+    width: 600px;
+    height: 320px;
+    margin: 0 auto;
+    border: 2px solid rgb(198, 185, 185);
+    text-align: center;
+    padding: 10px;
+    box-shadow: 3px 6px 8px rgb(187, 185, 185);
+    border-radius: 10px;
+    background-color: #fff;
+    
+}
+.toda{
+    width: 100%;
+    height: 100vh;
+    overflow: auto; /* Enable scroll if needed */
+   background-color: rgb(0,0,0); /* Fallback color */
+   background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   z-index: 1;
+   position: absolute;
+}
+.modalito h1{
+    align-self: center;
+    text-shadow: 8px 7px 3px rgb(149, 149, 149);
+}
+.btnModal{
+    margin: 20px ;
 }

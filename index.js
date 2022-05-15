@@ -1,4 +1,28 @@
 (function(){
-    let name = "Fernando";
-    console.log(name);
+ 
+    $(document).ready(function(){
+        $(".toda").hide();
+        
+        $(".boton2").click(function () {
+           
+            $(".toda").show();
+
+           
+          });  
+
+
+          $(".close").click(function () {
+           
+            $(".toda").hide();
+
+           
+          });  
+
+
+
+
+    })
+
+
+
 }());

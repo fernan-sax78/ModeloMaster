@@ -3,7 +3,7 @@
     // PopOver & ToolTip
     $(document).ready(function(){
 
-        $('.btn').popover({
+        $('.boton').popover({
             title:"HELLO",
             content : "We are trying",
             placement : "right"
@@ -18,7 +18,7 @@
         
     });
 
-document.querySelector('.btn').addEventListener('click', ()=>{
+document.querySelector('.boton').addEventListener('click', ()=>{
     document.getElementById('texto').innerHTML = "This is a text after click...."
 })
 
